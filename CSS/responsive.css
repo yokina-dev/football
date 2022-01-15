@@ -1,0 +1,320 @@
+
+/* Media quesries */
+/* mobile devise */
+@media only screen and (max-width: 480px){
+   .nav-bar{
+       display: none;
+   }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* background-color: rgb(255, 0, 0); */
+    }
+  
+
+    .display-flex{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    .banner-tittle{
+        margin-left: 15px;
+        margin-top: 18px;
+        width: 100%;
+        
+    }
+    .banner h2{
+        font-size: 54px;
+        font-weight: 700;
+        color:  #FFFFFF;
+        margin-bottom: 2px;
+        width: 490px;
+        
+
+    }
+    .stage img{
+ 
+            width: 420px;
+            height: 320px;
+}
+.players {
+    margin-top: 50px;
+  }
+  .players-wrap {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+    .hight-ligts{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hilights-info{
+        margin-left: 50px;
+    }
+    .hilights-info h3{
+        font-size: 38px;
+        font-weight: 700px;
+        color: #0A0826;
+        margin-bottom: 8px;
+        width: 80%;
+    }
+    .hilights-info p{
+        color: #6C6C6C;
+        font-size: 16px;
+        width: 80%;
+        margin-top: 0;
+        margin-bottom: 0px;
+    
+      }
+    
+    .hight-ligts img{
+        width: 70%;
+       
+        padding: 10%;
+
+
+    }
+    .covid-news{
+        grid-template-columns: repeat(1,1fr);
+        /* display: flex;
+        flex-direction: column; */
+        /* margin: auto; */
+    }
+    .section-title{
+        font-size: 30px;
+        padding-left:12% ;
+        margin-bottom: 0;
+    }
+    .covid-dtails{
+        padding-left:12%;
+        font-size: 16px;
+        margin-top: 0;
+    
+      }
+    .footer-wrap {
+        width: 100%;
+      }
+      .footer-logo img {
+        width: 60%;
+      }
+      .copyright {
+        padding: 15px;
+      }
+    }
+    
+/* tablet device  */
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+
+    .nav-bar{
+        display: none;
+    }
+     .banner{
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         /* background-color: rgb(255, 0, 0); */
+         justify-content: center;
+         align-items: center;
+     }
+   
+ 
+     /* .display-flex{
+         display: flex;
+         flex-direction: column;
+         background-color: black;
+     } */
+     .banner-tittle{
+         margin-left: 15px;
+         margin-top: 18px;
+         width: 60%;
+         
+     }
+     .banner h2{
+         font-size: 54px;
+         font-weight: 700;
+         color:  #FFFFFF;
+         margin-bottom: 2px;
+         width: 490px;
+         
+ 
+     }
+     .stage img{
+  
+             width: 520px;
+             height: 420px;
+ }
+ .players {
+    margin-top: 50px;
+  }
+  .players-wrap {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+     .hight-ligts{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         margin-bottom: 100px;
+         justify-content: center;
+         align-items: center;
+     }
+     .hilights-info{
+         margin-left: 80px;
+     }
+     .hilights-info h3{
+         font-size: 38px;
+         font-weight: 700px;
+         color: #0A0826;
+         margin-bottom: 8px;
+         width: 80%;
+     }
+     .hilights-info p{
+         color: #6C6C6C;
+         font-size: 16px;
+         width: 80%;
+         margin-top: 0;
+         margin-bottom: 0px;
+     
+       }
+     
+     .hight-ligts img{
+         width: 70%;
+        
+         padding: 10%;
+ 
+ 
+     }
+     .covid-news{
+         /* display: flex;
+         flex-direction: column; */
+         /* margin: auto; */
+         grid-template-columns: repeat(2,1fr);
+     }
+     .news-banner img{
+        width: 200px;
+        height: 250px;
+    }
+     .section-title{
+         font-size: 30px;
+         padding-left:12% ;
+         margin-bottom: 0;
+     }
+     .covid-dtails{
+         padding-left:12%;
+         font-size: 16px;
+         margin-top: 0;
+     
+       }
+     .footer-wrap {
+         width: 100%;
+       }
+       .footer-logo img {
+         width: 60%;
+       }
+       .copyright {
+         padding: 15px;
+       }
+}
+@media only screen and (min-width: 769px) and (max-width: 1268px){
+    .nav-bar{
+        display: none;
+    }
+     .banner{
+         /* display: flex;
+         flex-direction: column; */
+         width: 100%;
+         /* background-color: rgb(255, 0, 0); */
+         justify-content: center;
+         align-items: center;
+     }
+   
+ 
+     /* .display-flex{
+         display: flex;
+         flex-direction: column;
+         background-color: black;
+     } */
+     .banner-tittle{
+         margin-left: 15px;
+         margin-top: 18px;
+         width: 80%;
+         /* background-color: black; */
+         
+     }
+     .banner h2{
+         font-size: 44px;
+         font-weight: 700;
+         color:  #FFFFFF;
+         margin-bottom: 2px;
+         width: 490px;
+         
+ 
+     }
+     .image-g{
+         overflow: hidden;
+         /* background-color: black; */
+     }
+     .stage img{
+  
+             width: 320px;
+             height: 220px;
+             /* margin-left: -500px; */
+             /* overflow: hidden; */
+ }
+
+ .hight-ligts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.hilights-info{
+    margin-left: 80px;
+}
+.hilights-info h3{
+    font-size: 38px;
+    font-weight: 700px;
+    color: #0A0826;
+    margin-bottom: 8px;
+    width: 80%;
+}
+.hilights-info p{
+    color: #6C6C6C;
+    font-size: 16px;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0px;
+
+  }
+
+.hight-ligts img{
+    width: 70%;
+   
+    padding: 10%;
+
+
+}
+.covid-news{
+    /* display: flex;
+    flex-direction: column; */
+    /* margin: auto; */
+    grid-template-columns: repeat(2,1fr);
+}
+.news-banner img{
+   width: 290px;
+   height: 250px;
+}
+.section-title{
+    font-size: 30px;
+    padding-left:12% ;
+    margin-bottom: 0;
+}
+.covid-dtails{
+    padding-left:12%;
+    font-size: 16px;
+    margin-top: 0;
+
+  }
+}
